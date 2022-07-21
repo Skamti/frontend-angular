@@ -1,0 +1,21 @@
+.datos {
+  display: inline-block;
+  display: inline;
+}
+#logo-img img {
+  /*
+     bottom:20vh;
+     left:80vw;*/
+
+  float: right;
+  max-width: 100px;
+  max-height: 100px;
+  margin-left: auto;
+  border-radius: 50px;
+  top:0px;
+}
+
+.id-img img {
+  max-width: 100%;
+  max-height: 100%;
+}

@@ -1,0 +1,26 @@
+<div class="contenedor">
+  <div>
+    <img class="bg-img" src="./assets/Images/fondo_no_pepe.jpg" />
+  </div>
+  
+  <div class="id-img">
+    <img [src]="miPortfolio.image" />
+  </div>
+
+  <div class="datos">
+    <ul class="list-group container">
+      <div class="row">
+        <div class="col-md-auto">
+          <li class="list-group-item">Mi nombre es {{ miPortfolio.name }}</li>
+          <li class="list-group-item">Soy {{ miPortfolio.trabajo }}</li>
+          <li class="list-group-item">Trabajo en {{ miPortfolio.ciudad }}</li>
+        </div>
+        <div class="col-sm-6"></div>
+
+        <div class="col-sm-2">
+          <div id="logo-img"><img src="./assets/Images/pepega.jpg" /></div>
+        </div>
+      </div>
+    </ul>
+  </div>
+</div>

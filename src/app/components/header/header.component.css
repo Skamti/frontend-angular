@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #474c52;
+    color: white;
+    padding: 10px;
+  }
+  
+  .brand {
+    margin-top: 33px;
+    margin-left: 10px;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    right: auto;
+    margin-top:1rem;
+  }
+  .menu li {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .menu a {
+    width: 25px;
+    height: 35px;
+    display: flex;
+    text-decoration: none;
+    padding: 20px;
+    position: relative;
+  }
+  .boton{
+    right:40px;
+  }
+  .btn{
+    background-color:#000000;
+    margin-right:20px;
+  }
